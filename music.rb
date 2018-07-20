@@ -28,4 +28,5 @@ end
 
 def add_song_and_artist(library, artist, song)
   library[:artist] = song
+  library 
 end 
