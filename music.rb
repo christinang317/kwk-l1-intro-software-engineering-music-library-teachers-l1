@@ -2,8 +2,8 @@
 #1. Define a method named `list_artists`. This method should use the `each_key` method to iterate over the hash and return all the artists (the keys)
 # This method should accept a hash as an argument.
 def list_artists(library)
-  library.each do |keys, value|
-    puts "#{keys}"
+  library.each_key do |keys|
+    puts keys
   end
 
 end
